@@ -12,7 +12,8 @@
     "postinstall": "node ./lib/postinstall.js"
   },
   "files": [
-    "lib/"
+    "lib/",
+    "build/"
   ],
   "author": "",
   "license": "MIT",

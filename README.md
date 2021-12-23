@@ -1,9 +1,7 @@
 # 简介
-`vscode-ripgrep` 对应的内网包，因`ripgrep`通过`github` 下载有很大失败率，所以通过该内网包，内网下载。
+`vscode-ripgrep` 对应的预编译包，因`ripgrep `通过`github` 在国内下载有很大失败率，所以发布预编译包，并通过国内 cdn 下载。
 
 # 注意
-为保持和外网包的一致性，必须遵循以下原则：
-
 * 同版本号的 `vscode-ripgrep` 下载安装的 `ripgrep` 版本号必须一致
 
 # 实现原理
