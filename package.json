@@ -1,0 +1,22 @@
+{
+  "name": "@opensumi/vscode-ripgrep",
+  "version": "1.3.2",
+  "description": "Downloads the ripgrep binary shipped in OpenSumi",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opensumi/vscode-ripgrep.git"
+  },
+  "scripts": {
+    "postinstall": "node ./lib/postinstall.js"
+  },
+  "files": [
+    "lib/"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.12.0"
+  }
+}
