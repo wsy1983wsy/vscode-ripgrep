@@ -1,0 +1,17 @@
+{
+  "name": "@opensumi/vscode-ripgrep-prebuilt",
+  "version": "1.4.0",
+  "description": "prebuilt ripgrep binary",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:opensumi/vscode-ripgrep.git"
+  },
+  "files": [
+    "build/"
+  ],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

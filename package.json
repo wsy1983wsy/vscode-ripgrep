@@ -1,6 +1,7 @@
 {
   "name": "@opensumi/vscode-ripgrep",
-  "version": "1.3.2",
+  "version": "1.4.0",
+  "rgVersion": "v13.0.0-4",
   "description": "Downloads the ripgrep binary shipped in OpenSumi",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -12,12 +13,18 @@
     "postinstall": "node ./lib/postinstall.js"
   },
   "files": [
-    "lib/",
-    "build/"
+    "lib/"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^10.12.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "https-proxy-agent": "^5.0.0",
+    "proxy-from-env": "^1.1.0"
   }
 }
